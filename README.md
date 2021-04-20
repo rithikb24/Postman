@@ -4,14 +4,15 @@ INstructuins how to run
 
 Alternatively - 
 1. create a table on your local postgres server using the command in database/create_fixtures.sql
-2. use the file app/app.py to populate the database
+2. Set all the enviourment variables seen in line15-19 in app/app.py accordingly.
+3. use the file app/app.py to populate the database
 
 
 Things Done from points to achieve
 1. Code follows concepts of OOPS
 2. The file gets processed under a mintue 
 4. all details ingested in one table 
-5. This can be achieved by running this query - """CREATE TABLE agg_name AS SELECT COUNT(DISTINCT name) AS distinct_name FROM postman"""
+5. An aggregated table on above rows with `name` and `no. of products` as the columns can be achieved from this command- """CREATE TABLE agg_name AS SELECT COUNT(DISTINCT name) AS distinct_name FROM postman"""
 
 
 
