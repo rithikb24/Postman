@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  app :
+    build: ./app/
+    restart: on-failure
+    depends_on: 
+      - db
+  db:
+    build: ./database/
