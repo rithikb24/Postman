@@ -17,7 +17,7 @@ Things Done from points to achieve
 
 
 Things NOt Done from points to achieve
-3. couldnt find the workaround for having sku as primary key without data loss as it had duplicate values
+1. couldnt find the workaround for having sku as primary key without data loss as it had duplicate values
 
 
 If given more time- 
